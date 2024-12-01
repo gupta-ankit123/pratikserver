@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
 
+app.get('/test', (req, res) => {
+    res.send('Hello, World!');
+});
+
 // Example POST route
 app.post('/data', (req, res) => {
     const data = req.body;
